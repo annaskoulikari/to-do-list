@@ -1,3 +1,19 @@
+# Learning React Hooks by building a To Do List Application
+
+When I first learnt React I had learnt to use **class components**. Now that a lot of development teams are using **Hooks**, I thought it was time for me to learnt how to use them as well! 
+
+This is a simple To Do List Application: 
+
+<img width="500" alt="todolistimage" src="https://user-images.githubusercontent.com/44571108/98124227-33aeb900-1eb3-11eb-88b0-c27a80fb3e02.png">
+
+The main functions of the app are: 
+* Adding to do list items
+* Checking off to do list items
+* Deleting to do list items
+* Filtering through to do list items
+
+In this application I used the useState hook and the useEffect hook. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
