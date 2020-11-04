@@ -14,6 +14,8 @@ The main functions of the app are:
 
 In this application I used the useState hook and the useEffect hook. 
 
+I built this application by following a React Hooks tutorial by Dev Ed which is available [here](https://www.youtube.com/watch?v=pCA4qpQDZD8)! (Gotta give credit where credit is due!)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
