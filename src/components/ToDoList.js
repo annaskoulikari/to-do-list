@@ -1,11 +1,16 @@
 import React from "react";
-
-const ToDoList = () => {
+import Todo from "./Todo";
+const Todolist = ({ todos }) => {
+  console.log(todos);
   return (
     <div className="todo-container">
-      <ul className="todo-list"></ul>
+      <ul className="todo-list">
+        {todos.map(todo => (
+          <Todo key={todo.id} text={todo.text} />
+        ))}
+      </ul>
     </div>
   );
 };
 
-export default ToDoList;
+export default Todolist;
